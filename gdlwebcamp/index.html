@@ -75,10 +75,10 @@
 
    <section class="programa">
      <div class="contenedor-video">
-       <video autoplay loop poster="img/bg-talleres.jpg">
-         <source src="video/video.mp4" type="video.mp4">
-         <source src="video/video.webm" type="video.webm">
-         <source src="video/video.ogv" type="video.ogv">
+       <video loop="true" autoplay="autoplay" controls="controls" id="videillos">
+         <source src="video/video.mp4" type="video/mp4">
+         <source src="video/video.webm" type="video/webm">
+         <source src="video/video.ogv" type="video/ogv">
         </video>
      </div><!--contenedor video-->
      <div class="contenido-programa">
@@ -119,6 +119,9 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    document.getElementById('videillos').play();
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
