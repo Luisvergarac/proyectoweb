@@ -241,7 +241,6 @@ div.logo img {
        
     }
 }
-
 /** navegacion principal **/
 
 nav.navegacion-principal {
@@ -307,7 +306,15 @@ div.menu-movil span {
     background-color: white;
     display: block;
 }
+/** talleres**/
 
+section.programa {
+    position: relative;
+}
+div.contenedor-video {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
     
 
